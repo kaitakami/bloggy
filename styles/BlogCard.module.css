@@ -1,0 +1,64 @@
+.card {
+  margin: auto;
+  height: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  box-shadow: 15px 20px 40px rgba(216, 211, 211, 0.4);
+  max-width: 400px;
+}
+
+.card h2 {
+  padding: 0.5rem 0rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+}
+
+.imgContainer {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+}
+
+.coverPhoto:hover {
+  opacity: 0.8;
+}
+
+.CoverPhoto {
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.5rem 0rem;
+}
+
+.text {
+  padding: 1rem 3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author div {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.authorImage {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
